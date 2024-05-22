@@ -37,6 +37,7 @@ const generateGamesList = (gamesArray, template, parent) => {
   const gamesArray = await getData('/games');
   const template = document.querySelector('#game-list-item');
   const parent = document.querySelector('.games-list');
+
   generateGamesList(gamesArray, template, parent);
 })();
 
