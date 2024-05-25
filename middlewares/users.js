@@ -95,8 +95,6 @@ const filterPassword = (req, res, next) => {
   next();
 };
 
-// middlewares/users.js
-
 const hashPassword = async (req, res, next) => {
   try {
     // Создаём случайную строку длиной в десять символов
