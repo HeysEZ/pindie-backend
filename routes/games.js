@@ -32,8 +32,6 @@ gamesRouter.post(
   "/games",
   findAllGames,
   checkIsGameExists,
-  checkIfCategoriesAvaliable,
-  checkEmptyFields,
   createGame,
   sendGameCreated,
   checkAuth
@@ -44,8 +42,6 @@ gamesRouter.put(
   findGameById,
   checkIsVoteRequest,
   checkIfUsersAreSafe,
-  checkIfCategoriesAvaliable,
-  checkEmptyFields,
   updateGame,
   sendGameUpdated,
   checkAuth
