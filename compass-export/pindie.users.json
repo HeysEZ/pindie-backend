@@ -1,0 +1,26 @@
+[{
+  "_id": {
+    "$oid": "65ef1f358c121ad8a56dabb6"
+  },
+  "username": "aski111",
+  "email": "aski@example.com",
+  "password": "ilovehtml"
+},
+{
+  "_id": {
+    "$oid": "664f661b56696bc5041df2dc"
+  },
+  "username": "Jodanaaaa",
+  "email": "Jodan@aaa.com",
+  "password": "$2a$10$g8c/uO/SKDLxw1bFCR2wWuZ1tB8HRZeFBAFsrK8PoV2nTyfW7dHP.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "664f66e5522f03dd0ec1b2cf"
+  },
+  "username": "Jodaan023",
+  "email": "dania.daniljchenko@gmail.com",
+  "password": "$2a$10$weSFZwdOs13gHa/S6JMGcOpmKF5qDKqf9Azcv9c8vyiHUjH123wmi",
+  "__v": 0
+}]
