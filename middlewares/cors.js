@@ -1,4 +1,4 @@
-const allowedCors = ['daniafront.nomoredomainswork.ru'];
+const allowedCors = ['https://daniafront.nomoredomainswork.ru'];
 
 function cors(req, res, next) {
     const { origin } = req.headers;

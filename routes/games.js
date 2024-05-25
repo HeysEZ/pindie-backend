@@ -7,8 +7,6 @@ const {
   findGameById,
   updateGame,
   deleteGame,
-  checkEmptyFields,
-  checkIfCategoriesAvaliable,
   checkIfUsersAreSafe,
   checkIsGameExists,
   checkIsVoteRequest
