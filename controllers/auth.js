@@ -19,7 +19,7 @@ const sendIndex = (req, res) => {
 const login = (req, res) => {
   const { email, password } = req.body;
 
-  return users
+  users
     .findUserByCredentials(email, password)
     .then((user) => {
       const token = jwt.sign({ _id: user._id }, "some-secret-key", {
@@ -36,7 +36,6 @@ const login = (req, res) => {
           email: user.email,
           jwt: token
         });
-      return user
     })
     .then((user) => {
       res
