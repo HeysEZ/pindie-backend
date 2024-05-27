@@ -54,6 +54,6 @@ usersRouter.delete(
     sendUserDeleted
 );
 
-usersRouter.get("/me", checkAuth, sendMe);
+usersRouter.get("/users/me", checkAuth, sendMe);
 
 module.exports = usersRouter;
